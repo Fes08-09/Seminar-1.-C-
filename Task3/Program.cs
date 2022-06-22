@@ -11,6 +11,7 @@ int count = N * -1;
 while(count <= N)
 {
     int numbers = count;
-    Console.WriteLine(numbers);
+    Console.Write(numbers);
+    Console.Write(", ");
     count++;
 }
